@@ -1,0 +1,28 @@
+ /*for (int j = 0; j < group.get(i).getOrders().size() ; j++)
+           {
+               for (int k = 0; k < boq.getGroups().get(i).getOrders().get(j).getBoq_items().size() ; k++)
+               {
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getOrder_type());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getBill_to());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getBrand_name());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getBuyer_id());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getCategory_id());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getCurrency());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getEta());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getHandling_fee());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getHsn_code());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getItem_discount());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getItem_quantity());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getItem_tax());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getItem_unit_price());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getParent_id());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getPayment_milestone());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getProduct_name());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getSales_channel());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getSeller_id());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getShip_to());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getSku_code());
+                   System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(k).getTake_rate_strategy());
+                   //System.out.println(boq.getGroups().get(i).getOrders().get(j).getBoq_items().get(i).get);
+               }
+           }*/

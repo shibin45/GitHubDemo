@@ -1,0 +1,139 @@
+Request method:	POST
+Request URI:	https://cerebro.dev.livspace.com/boqs
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "boq_items": [
+        {
+            "seller_id": 23432,
+            "buyer_id": 0,
+            "bill_to": 414124,
+            "ship_to": 342314,
+            "currency": "INR",
+            "project_id": 324143,
+            "sales_channel": 3,
+            "sku_code": "SKU_blabla",
+            "product_name": "sofa",
+            "handling_fee": 8,
+            "item_unit_price": 10,
+            "item_quantity": 10,
+            "item_tax": 10.0,
+            "item_discount": 10,
+            "hsn_code": "hahaha",
+            "parent_id": "null",
+            "eta": "2019-12-24T00:00:59.573+0530",
+            "brand_name": "LG",
+            "category_id": 3,
+            "payment_milestone": "PM1",
+            "take_rate_strategy": "TR1"
+        },
+        {
+            "seller_id": 23432,
+            "buyer_id": 0,
+            "bill_to": 414124,
+            "ship_to": 342314,
+            "currency": "INR",
+            "project_id": 324143,
+            "sales_channel": 3,
+            "sku_code": "SKU_blabla",
+            "product_name": "sofa",
+            "handling_fee": 8,
+            "item_unit_price": 20,
+            "item_quantity": 10,
+            "item_tax": 10.0,
+            "item_discount": 10,
+            "hsn_code": "hahaha",
+            "parent_id": "null",
+            "eta": "2019-12-24T00:00:59.573+0530",
+            "brand_name": "LG",
+            "category_id": 3,
+            "payment_milestone": "PM2",
+            "take_rate_strategy": "TR2"
+        },
+        {
+            "seller_id": 23432,
+            "buyer_id": 0,
+            "bill_to": 414124,
+            "ship_to": 342314,
+            "currency": "INR",
+            "project_id": 324143,
+            "sales_channel": 3,
+            "sku_code": "SKU_blabla",
+            "product_name": "sofa",
+            "handling_fee": 8,
+            "item_unit_price": 30,
+            "item_quantity": 10,
+            "item_tax": 10.0,
+            "item_discount": 10,
+            "hsn_code": "hahaha",
+            "parent_id": "null",
+            "eta": "2019-12-24T00:00:59.573+0530",
+            "brand_name": "LG",
+            "category_id": 3,
+            "payment_milestone": "PM3",
+            "take_rate_strategy": "TR3"
+        },
+        {
+            "seller_id": 23432,
+            "buyer_id": 0,
+            "bill_to": 414124,
+            "ship_to": 342314,
+            "currency": "INR",
+            "project_id": 324143,
+            "sales_channel": 3,
+            "sku_code": "SKU_blabla",
+            "product_name": "sofa",
+            "handling_fee": 8,
+            "item_unit_price": 40,
+            "item_quantity": 10,
+            "item_tax": 10.0,
+            "item_discount": 10,
+            "hsn_code": "hahaha",
+            "parent_id": "null",
+            "eta": "2019-12-24T00:00:59.573+0530",
+            "brand_name": "LG",
+            "category_id": 3,
+            "payment_milestone": "PM4",
+            "take_rate_strategy": "TR4"
+        },
+        {
+            "seller_id": 23432,
+            "buyer_id": 0,
+            "bill_to": 414124,
+            "ship_to": 342314,
+            "currency": "INR",
+            "project_id": 324143,
+            "sales_channel": 3,
+            "sku_code": "SKU_blabla",
+            "product_name": "sofa",
+            "handling_fee": 8,
+            "item_unit_price": 50,
+            "item_quantity": 10,
+            "item_tax": 10.0,
+            "item_discount": 10,
+            "hsn_code": "hahaha",
+            "parent_id": "null",
+            "eta": "2019-12-24T00:00:59.573+0530",
+            "brand_name": "LG",
+            "category_id": 3,
+            "payment_milestone": "PM5",
+            "take_rate_strategy": "TR5"
+        }
+    ]
+}
+HTTP/1.1 500 
+Server: nginx/1.17.8
+Date: Tue, 20 Oct 2020 07:39:56 GMT
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 45
+Connection: keep-alive
+
+Error Occurred java.lang.NullPointerException
