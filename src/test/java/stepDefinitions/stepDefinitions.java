@@ -55,7 +55,7 @@ public class stepDefinitions extends Utils {
         //System.out.println(boq.getGroups().size());
     }
 
-    @Then("verify if the reponse has given success code")
+    @Then("verify if the response has given success code")
     public void verify_if_the_reponse_has_given_success_code() {
         assertEquals(boq.getStatus().getstatus_code(), 1);
         assertEquals(boq.getStatus().getStatus_type(), "SUCCESS");
